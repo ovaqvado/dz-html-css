@@ -1,0 +1,104 @@
+/* Первое задание */
+
+body{
+    background-color: grey;
+  }
+  
+  #apple {
+    margin: 10px; padding: 10px;
+  }
+  
+  #cherry {
+    margin: 10px; padding: 10px;
+  }
+  
+  #peach {
+    margin: 10px; padding: 10px;
+  }
+  
+  #grape{
+    background-color: rgb(248, 126, 146);
+    margin: 10px; padding: 10px;
+  }
+  
+  #melon {
+    margin: 10px; padding: 10px;
+  }
+  
+  
+  ol{
+    background-color: pink;
+    margin: 10px; padding: 20px;
+  }
+  
+  li {
+    list-style-position:inside ;
+  }
+  
+  a {
+    background-color:rgb(255, 79, 109);
+    margin: 10px; padding: 10px;
+  }
+  
+  
+  /* Второе задание */
+  
+  .center {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  ul {
+    list-style-type: none;
+    background-color: rgb(148, 180, 180);
+    width: 200px;
+  }
+
+  .ul-btf li::before {
+    position: absolute;
+    left: 20px;
+    /* высота текста top: 30px; */
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url('checked_16.png');
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+    .hit {
+        background-color: rgb(44, 223, 255);
+        width: 150px;
+    }
+    
+    .pit {
+        background-color: rgb(189, 242, 255);
+        width: 150px;
+    }
+
+    .tit {
+        background-color: rgb(32, 208, 252);
+        width: 150px;
+    }
+  
+
+    .did {
+        position: absolute;
+        left: 30px;
+        height: 20px;
+        width: 90px;
+        background-image: url(checked_16.png);
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .big {
+        position:absolute;
+        left: 30px;
+        height: 20px;
+        width: 90px;
+        background-image: url(unchecked_16.png);
+        background-position: left;
+        background-repeat: no-repeat;
+
+    }
