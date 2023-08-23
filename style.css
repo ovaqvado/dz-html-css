@@ -54,19 +54,8 @@ body{
     width: 200px;
   }
 
-  .ul-btf li::before {
-    position: absolute;
-    left: 20px;
-    /* высота текста top: 30px; */
-    content: '';
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    background-image: url('checked_16.png');
-    background-size: contain;
-    background-repeat: no-repeat;}
 
-    .hit {
+    .hit   {
         background-color: rgb(44, 223, 255);
         width: 150px;
     }
@@ -85,8 +74,8 @@ body{
     .did {
         position: absolute;
         left: 30px;
-        height: 20px;
-        width: 90px;
+        height: 22px;
+        width: 1000px;
         background-image: url(checked_16.png);
         background-position: left;
         background-repeat: no-repeat;
@@ -95,8 +84,8 @@ body{
     .big {
         position:absolute;
         left: 30px;
-        height: 20px;
-        width: 90px;
+        height: 22px;
+        width: 1000px;
         background-image: url(unchecked_16.png);
         background-position: left;
         background-repeat: no-repeat;
