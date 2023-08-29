@@ -1,0 +1,58 @@
+
+.container-work{
+    background: silver;
+    padding: 20px 20px;
+
+}
+
+del {
+    color: black;
+}
+.work {
+    list-style-type: none;
+    list-style-position: inside;
+}
+.work li {
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+}
+.work li:nth-child(odd ) {
+   background: rgb(50, 203, 250);   
+}
+.work li:nth-child(even ) {
+   background: rgba(69, 233, 255, 0.7);   
+}
+.work li {
+    text-align: left;
+
+}
+
+.briz {
+    color:red;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.work button{
+    margin-left:15px ;
+    margin-right: 15px;
+    
+}
+
+.work li.finished::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("square-check.svg");
+    background-repeat: no-repeat;
+    margin-right: 6px;            
+}
+.work li::before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("square.svg");
+    background-repeat: no-repeat;
+    margin-right: 6px;      
+}
